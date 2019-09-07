@@ -3,6 +3,8 @@ K-Nearest-Neighbor Algorithm implemented in TensorFlow JS ML Library. Coded alon
 
 **Overview of KNN Algorithm
 
+*Housing Data Set (CSV file) is included 
+
 *Features are latitude, longitude, lot (in sqft), living (in sqft)
 
 *Label and Prediction Point is Housing Prices (in Thousands of $s)
