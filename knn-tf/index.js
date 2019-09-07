@@ -40,5 +40,9 @@ labels = tf.tensor(labels);
 testFeatures.forEach((testPoint, i) => {
     const result = knn(features, labels, tf.tensor(testPoint), 10);
     const err = (testLabels[i][0] - result) / testLabels[i][0];
-    console.log('KNN Error Percentage:', err * 100);    //We are getting Error Percentages    
+    console.log('KNN Housing Price Prediction: $', result);     //Logging out Housing Predictions
+    console.log();  //New Line
+    console.log('KNN Prediction Error Percentage: %', err * 100);    //Logging out Error Percentages    
+    console.log();  //New Line
+})
 })
