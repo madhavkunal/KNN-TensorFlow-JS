@@ -17,5 +17,5 @@ Steps:
 
 **To Run KNN Algorithm in your CPU:
 
-4. Run > 'node index.js' in the terminal window pointing to the knn-tf directory to execute KNN algorithm and run Tensorflow JS in Node
+4. Run 'node index.js' in the terminal window pointing to the knn-tf directory to execute KNN algorithm and run Tensorflow JS in Node
 5. You should see KNN Label Results (Housing Prices in Thousands of $s) and KNN Error Percentages (to show discrepancies between observed predictions by KNN algorithm and actual testing results)
