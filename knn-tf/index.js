@@ -30,8 +30,8 @@ return (
 let { features, labels, testFeatures, testLabels } = loadCSV('kc_house_data.csv', {  
     shuffle: true, //shuffle rows of data in CSV file to randomize test dataset
     splitTest: 10, //split test data in 2 datasets (10 for Testing/other 20,000+ for Training)
-    dataColumns: ['lat', 'long', 'sqft_lot', 'sqft_living'],   //Features - Latitude/Longitude
-    labelColumns: ['price']       //Label - Price of House
+    dataColumns: ['lat', 'long', 'sqft_lot', 'sqft_living'],   //Features - Latitude/Longitude/SqFt Lot/SqFt_Living
+    labelColumns: ['price']       //Label - Price of House (in Thousands of $s)
 });
 
 features = tf.tensor(features);
