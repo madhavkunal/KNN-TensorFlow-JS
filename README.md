@@ -2,7 +2,9 @@
 K-Nearest-Neighbor Algorithm implemented in TensorFlow JS ML Library. Coded along with Stephen Grider in Machine Learning with JavaScript Udemy Course (https://www.udemy.com/machine-learning-with-javascript/).
 
 **Overview of KNN Algorithm
+
 *Features are latitude, longitude, lot (in sqft), living (in sqft)
+
 *Label and Prediction Point is Housing Prices (in Thousands of $s)
 
 Steps:
